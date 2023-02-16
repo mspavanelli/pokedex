@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pokedex/pages/home.dart';
 import 'pages/login.dart';
 
 void main() {
@@ -13,7 +14,8 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
-      home: LoginPage(),
+      // home: LoginPage(),
+      home: HomePage(),
     );
   }
 }

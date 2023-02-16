@@ -20,7 +20,9 @@ class LoginPage extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               const LoginTitle(),
-              Image.asset("assets/images/pokemons.png"),
+              Expanded(
+                child: Image.asset("assets/images/pokemons.png"),
+              ),
               const LoginActions(),
             ],
           ),
